@@ -39,3 +39,12 @@ git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057
 
 # Diffusers from GitHub
 git+https://github.com/huggingface/diffusers
+
+# Add to docker/requirements.txt:
+trimesh>=3.21.0
+xatlas
+nvdiffrast
+einops>=0.6.0
+scikit-image>=0.21.0
+huggingface_hub>=0.20.0
+safetensors>=0.4.0
